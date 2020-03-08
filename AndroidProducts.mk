@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/aosp_deb.mk
+	$(LOCAL_DIR)/carbon_deb.mk
