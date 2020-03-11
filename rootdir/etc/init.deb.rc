@@ -322,14 +322,14 @@ service charger /sbin/healthd -c
     critical
     seclabel u:r:healthd:s0
 
-service thermald /vendor/bin/thermald
-    class main
-    group radio system
+#service thermald /vendor/bin/thermald
+    #class main
+    #group radio system
 
-service mpdecision /vendor/bin/mpdecision --avg_comp
-    class main
-    user root
-    group root readproc system
+#service mpdecision /vendor/bin/mpdecision --avg_comp
+    #class main
+    #user root
+    #group root readproc system
 
 service qcamerasvr /vendor/bin/mm-qcamera-daemon
     class late_start
